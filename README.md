@@ -205,3 +205,6 @@ Written to remove the nvdiffrast dependency from a
 [TRELLIS.2](https://github.com/microsoft/TRELLIS.2) image-to-3D pipeline, but it
 has no dependency on that project and should suit any codebase using nvdiffrast
 for rasterization and texture sampling.
+
+Not affiliated with or endorsed by NVIDIA. "nvdiffrast" is referenced only to
+identify the library this is API-compatible with.
