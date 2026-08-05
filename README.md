@@ -55,9 +55,9 @@ Every claim below was measured against nvdiffrast itself on a real mesh:
 | UV-space texture bake | mean 0.0005 |
 | metallic / roughness / alpha, multi-material | worst mean 0.0014 |
 
-The parity harnesses are included in `tools/`. They import nvdiffrast as ground
-truth, so they only run if you have it installed — the library itself never
-does.
+Parity was measured with harnesses that import nvdiffrast as ground truth — the
+library itself never does. They aren't published here yet; open an issue if
+you'd like them.
 
 The texture test includes a **sensitivity check**: it injects a ±0.5 mip-level
 error and confirms the test catches it, so an all-pass result means something.
@@ -92,7 +92,8 @@ git clone --depth 1 https://github.com/facebookresearch/pytorch3d.git
 cd pytorch3d && python -m pip install . --no-build-isolation
 ```
 
-`build_pytorch3d.bat` in this repo does all of it.
+On Linux the standard `pip install .` from the PyTorch3D source tree works; the
+extra environment variables above are the Windows-specific part.
 
 > MSVC 14.44 and CUDA 12.8 compile together fine without
 > `-allow-unsupported-compiler`, despite MSVC being newer than CUDA 12.8's
