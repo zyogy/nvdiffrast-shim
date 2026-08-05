@@ -172,7 +172,7 @@ not been validated for training.
 
 ---
 
-## Three things that will bite you
+## Notes
 
 Each of these was found by measurement, not by reading documentation. If you
 adapt this code, don't "simplify" them:
