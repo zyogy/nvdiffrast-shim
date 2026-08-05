@@ -41,7 +41,7 @@ It also papers over the conventions that differ between the two libraries — ax
 flips, packed face indices, barycentric channel order, and depth handling — each
 of which produces a plausible-looking but wrong image if you get it backwards.
 
-## Verified, not assumed
+## Verified
 
 Every claim below was measured against nvdiffrast itself on a real mesh:
 
