@@ -1,4 +1,5 @@
 # nvdiffrast-shim
+> Repo: `nvdiffrast-shim` · Module: `raster_ops.py` · Import as `raster_ops`.
 
 **A drop-in, permissively-licensed replacement for nvdiffrast — built on PyTorch3D.**
 
@@ -107,7 +108,7 @@ Verify: `python -c "import pytorch3d, pytorch3d._C; print(pytorch3d.__version__)
 `typing`, and (lazily) `pytorch3d`. Copy it into your project.
 
 ```bash
-curl -O https://raw.githubusercontent.com/<you>/raster_ops/main/raster_ops.py
+curl -O https://raw.githubusercontent.com/zyogy/nvdiffrast-shim/main/raster_ops.py
 ```
 
 ## Usage
