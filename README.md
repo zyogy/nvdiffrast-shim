@@ -1,4 +1,4 @@
-# raster_ops
+# nvdiffrast-shim
 
 **A drop-in, permissively-licensed replacement for nvdiffrast — built on PyTorch3D.**
 
