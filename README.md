@@ -74,8 +74,7 @@ error and confirms the test catches it, so an all-pass result means something.
 
 ### Installing PyTorch3D
 
-This is the awkward part, and it is worth knowing before you start: **there are
-no PyTorch3D wheels for Windows**, and the published Linux wheels lag current
+**There are no PyTorch3D wheels for Windows**, and the published Linux wheels lag current
 PyTorch releases. On Windows it must be built from source (~15–30 min).
 
 1. Install the CUDA Toolkit matching `torch.version.cuda`. Choose *Custom* and
